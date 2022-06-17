@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/donation.css">
+    <link rel="stylesheet" href="./Style/media.css">
+    <title>Purchase and donate</title>
+    <link rel="icon" type="image/x-icon" href="./Images/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo"><img src="./Images/logo.png" alt="Logo"></div>
+            <label for="drop" class="toggle">Menu</label>
+            <input type="checkbox" id="drop">
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="wildlife.html">Types of wildlife Attractions</a></li>
+                <li><a href="beaches.html">Beaches</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li>
+                    <label for="drop-1" class="toggle">Heritage Locations</label>
+                    <a href="#">Heritage Locations</a>
+                    <input type="checkbox" id="drop-1">
+                    <ul>
+                        <li><a href="heritage.html">Kandy</a></li>
+                        <li><a href="heritageTwo.html">Polonnaruwa</a></li>
+                    </ul>
+                </li>
+                <li><a href="donation.html">Purchase and Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="boxes">
+        <div class="box">
+            <div class="container">
+                <h1>Pottery</h1>
+            </div>
+            <img src="./Images/clay-industry-sri-lanka.jpg" alt="Pottery"><br>
+            <a href="purchase.html">Purchase</a>
+        </div>
+        <div class="box">
+            <div class="container">
+                <h1>Handloom</h1>
+            </div>
+            <img src="./Images/products.resized.jpg" alt="Handloom"><br>
+            <a href="purchase.html">Purchase</a>
+        </div>
+        <div class="box">
+            <div class="container">
+                <h1>Cane Products</h1>
+            </div>
+            <img src="./Images//01.jpg" alt="Cane Products"><br>
+            <a href="purchase.html">Purchase</a>
+        </div>
+        <div class="box">
+            <div class="container">
+                <h1>Lacquer Work</h1>
+            </div>
+            <img src="./Images/image.jpg" alt="Lacquer Work"><br>
+            <a href="purchase.html">Purchase</a>
+        </div>
+    </section>
+    <div class="container">
+        <form>
+            <div class="row">
+                <p>The donations you make are used for the betterment of heritage and wildlife attractions in Sri Lanka.</p>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" placeholder="Your name..." name="firstname">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" placeholder="Your name..." name="lastname">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email:</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" id="email" placeholder="E-mail..." name="email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="street">Street:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="street" placeholder="Street..." name="street">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="city">City:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="city" placeholder="City..." name="city">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Country:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="country" placeholder="Country..." name="country">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="zip">Zip Code:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="zip" placeholder="Zip Code..." name="zip">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="card">Credit Card:</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" id="card" minlength="16" maxlength="16" name="card">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="exp">Expiry Date:</label>
+                </div>
+                <div class="col-75">
+                    <input type="date" id="date" name="date">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="cvc">CVC:</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" id="number" maxlength="3" minlength="3" name="cvc">
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Donate" class="submt">
+                <input type="reset" value="Clear" class="rset">
+            </div>
+        </form>
+    </div>
+    <footer>
+        <!-- Sri Lanka Business(No date). Available at: "https://www.srilankabusiness.com/blog/clay-industry-sri-lanka.html (Accessed: 4 May 2022)"
+        Paragon Holidays(No date). Available at: "https://paragonholidays.com/experiences/fair-trade-sri-lanka-factory-visit/ (Accessed: 4 May 2022)"
+        Soul Sri Lanka(No date). Available at: "https://www.soulsrilanka.com/sri-lanka-experiences-handicrafts-weweldeniya.html (Accessed: 4 May 2022)"
+        Timeout(No date). Available at: "https://www.timeout.com/sri-lanka/art/arts-and-crafts-in-sri-lanka (Accessed: 4 May 2022)"-->
+        <p>Copyright &copy; 2022</p>
+    </footer>
+    
+</body>
+</html>

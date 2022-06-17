@@ -1,0 +1,1026 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px){
+    /*header #main-header, header nav #navbar, header nav ul li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #navbar ul li {
+        font-size: 15px;
+    }
+
+    header #navbar {
+        min-height: 50px;
+        margin-left: -60px;
+        border: none;
+    }*/
+
+    #showcase {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+       }
+
+    #showcase img {
+        width: 100%;
+        height: auto;
+        margin-top: 16em;
+    }
+
+    #showcase h1 {
+        width: 100%;
+        font-size: 20px;
+        margin-top: 150px;
+    }
+
+    #showcase p {
+        font-size: 15px;
+    }
+
+    #introduction h1 {
+        font-size: 25px;
+    }
+
+    #introduction p {
+        font-size: 15px;
+    }
+
+    #boxes .boxes {
+        float: none;
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .boxes h3 {
+        border-radius: 15px;
+    }
+
+    #boxes {
+        margin-top: 150px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #boxes iframe{
+        width: 100%;
+        height: auto;
+    }
+
+    .box img {
+        width: 100%;
+        height: auto;
+        border: none;
+    }
+
+    .box h1 {
+        font-size: 25px;
+        background-color: none;
+        border: none;
+    }
+
+    .box p {
+        font-size: 15px;
+    }
+
+    .box a {
+        font-size: 15px;
+    }
+
+    .box ul li {
+        font-size: 20px;
+    }
+
+    #boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    form label {
+        font-size: 20px;
+    }
+
+    .submt {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .rset {
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    table .myFormat {
+        width: 100%;
+        overflow: scroll;
+    }
+
+    table img {
+        width: 80%;
+        height: auto;
+    }
+
+    table .myFormat tr th{
+        font-size: 10px;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+
+    
+}
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px){
+    /*header #main-header, header nav #navbar, header nav ul li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #navbar ul li {
+        font-size: 15px;
+    }
+
+    header #navbar {
+        min-height: 50px;
+        margin-left: -60px;
+        border: none;
+    }*/
+
+    #showcase {
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+    }
+
+    #showcase img {
+        width: 100%;
+        height: auto;
+        margin-top: 16em;
+    }
+
+    #showcase h1 {
+        width: 100%;
+        font-size: 20px;
+        margin-top: 150px;
+    }
+
+    #showcase p {
+        font-size: 15px;
+    }
+
+    #introduction h1 {
+        font-size: 25px;
+    }
+
+    #introduction p {
+        font-size: 15px;
+    }
+
+    #boxes .boxes {
+        float: none;
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .boxes h3 {
+        border-radius: 15px;
+    }
+
+    #boxes {
+        margin-top: 150px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #boxes iframe{
+        width: 100%;
+        height: auto;
+    }
+
+    .box img {
+        width: 100%;
+        height: auto;
+        border: none;
+    }
+
+    .box h1 {
+        font-size: 25px;
+        background-color: none;
+        border: none;
+    }
+
+    .box p {
+        font-size: 15px;
+    }
+
+    .box a {
+        font-size: 15px;
+    }
+
+    .box ul li {
+        font-size: 20px;
+    }
+
+    #boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    form label {
+        font-size: 20px;
+    }
+
+    .submt {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .rset {
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    table .myFormat {
+        width: 100%;
+        overflow: scroll;
+    }
+
+    table img {
+        width: 80%;
+        height: auto;
+    }
+
+    table .myFormat tr th{
+        font-size: 10px;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px){
+    /*header #main-header, header nav #navbar, header nav ul li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #navbar ul li {
+        font-size: 15px;
+    }
+
+    header #navbar {
+        min-height: 50px;
+        margin-left: -60px;
+        border: none;
+    }*/
+
+    #showcase {
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+    }
+
+    #showcase img {
+        width: 100%;
+        height: auto;
+        margin-top: 16em;
+    }
+
+    #showcase h1 {
+        width: 100%;
+        font-size: 20px;
+        margin-top: 150px;
+    }
+
+    #showcase p {
+        font-size: 15px;
+    }
+
+    #introduction h1 {
+        font-size: 25px;
+    }
+
+    #introduction p {
+        font-size: 15px;
+    }
+
+    #boxes .boxes {
+        float: none;
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .boxes h3 {
+        border-radius: 15px;
+    }
+
+    #boxes {
+        margin-top: 150px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #boxes iframe{
+        width: 100%;
+        height: auto;
+    }
+
+    .box img {
+        width: 100%;
+        height: auto;
+        border: none;
+    }
+
+    .box h1 {
+        font-size: 25px;
+        background-color: none;
+        border: none;
+    }
+
+    .box p {
+        font-size: 15px;
+    }
+
+    .box a {
+        font-size: 15px;
+    }
+
+    .box ul li {
+        font-size: 20px;
+    }
+
+    #boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    form label {
+        font-size: 20px;
+        width: 220px;
+    }
+
+
+    .submt {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .rset {
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    table .myFormat {
+        width: 100%;
+        overflow: scroll;
+    }
+
+    table img {
+        width: 80%;
+        height: auto;
+    }
+
+    table .myFormat tr th{
+        font-size: 10px;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    /*header #main-header, header nav #navbar, header nav ul li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #navbar ul li {
+        font-size: 15px;
+    }
+
+    header #navbar {
+        min-height: 50px;
+        margin-left: -60px;
+        border: none;
+    }*/
+
+    #showcase {
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+    }
+
+    #showcase img {
+        width: 100%;
+        height: auto;
+        margin-top: 16em;
+    }
+
+    #showcase h1 {
+        width: 100%;
+        font-size: 30px;
+        margin-top: 150px;
+    }
+
+    #showcase p {
+        font-size: 20px;
+    }
+
+    #introduction h1 {
+        font-size: 25px;
+    }
+
+    #introduction p {
+        font-size: 15px;
+    }
+
+    #boxes .boxes {
+        float: none;
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .boxes h3 {
+        border-radius: 15px;
+    }
+
+    #boxes {
+        margin-top: 150px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #boxes iframe{
+        width: 100%;
+        height: auto;
+    }
+
+    .box img {
+        width: 100%;
+        height: auto;
+        border: none;
+    }
+
+    .box h1 {
+        font-size: 25px;
+        background-color: none;
+        border: none;
+    }
+
+    .box p {
+        font-size: 15px;
+    }
+
+    .box a {
+        font-size: 15px;
+    }
+
+    .box ul li {
+        font-size: 20px;
+    }
+
+    #boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    form label {
+        font-size: 20px;
+    }
+
+    .submt {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .rset {
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    table .myFormat {
+        width: 100%;
+        overflow: scroll;
+    }
+
+    table img {
+        width: 80%;
+        height: auto;
+    }
+
+    table .myFormat tr th{
+        font-size: 10px;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 300px){
+    /*header #main-header, header nav #navbar, header nav ul li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #navbar ul li {
+        font-size: 15px;
+    }
+
+    header #navbar {
+        min-height: 50px;
+        margin-left: -60px;
+        border: none;
+    }*/
+
+    #showcase {
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+    }
+
+    #showcase img {
+        width: 100%;
+        height: auto;
+        margin-top: 16em;
+    }
+
+    #showcase h1 {
+        width: 100%;
+        font-size: 20px;
+        margin-top: 150px;
+    }
+
+    #showcase p {
+        font-size: 15px;
+    }
+
+    #introduction h1 {
+        font-size: 25px;
+    }
+
+    #introduction p {
+        font-size: 15px;
+    }
+
+    #boxes .boxes {
+        float: none;
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .boxes h3 {
+        border-radius: 15px;
+    }
+
+    #boxes {
+        margin-top: 150px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #boxes iframe{
+        width: 100%;
+        height: auto;
+    }
+
+    .box img {
+        width: 100%;
+        height: auto;
+        border: none;
+    }
+
+    .box h1 {
+        font-size: 25px;
+        background-color: none;
+        border: none;
+    }
+
+    .box p {
+        font-size: 15px;
+    }
+
+    .box a {
+        font-size: 15px;
+    }
+
+    .box ul li {
+        font-size: 20px;
+    }
+
+    #boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    form label {
+        font-size: 20px;
+    }
+
+    .submt {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .rset {
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    table .myFormat {
+        width: 100%;
+        overflow: scroll;
+    }
+
+    table img {
+        width: 80%;
+        height: auto;
+    }
+
+    table .myFormat tr th{
+        font-size: 10px;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+}
+
+@media all and (max-width : 768px) {
+
+	#logo {
+		display: block;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+
+	nav {
+		margin: 0;
+	}
+
+	/* Hide the navigation menu by default */
+	/* Also hide the  */
+	.toggle + a,
+	.menu {
+		display: none;
+	}
+
+	/* Styling the toggle lable */
+	.toggle {
+		display: block;
+		background-color: #41887c;
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px;
+		text-decoration:none;
+		border:none;
+	}
+
+	.toggle:hover {
+		background-color: #41887c;
+	}
+
+	/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+	}
+
+	/* Change menu item's width to 100% */
+	nav ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul .toggle,
+	nav ul ul a {
+		padding: 0 40px;
+	}
+
+	nav ul ul ul a {
+		padding: 0 80px;
+	}
+
+	nav a:hover,
+ 	nav ul ul ul a {
+		background-color: #41887c;
+	}
+  
+	nav ul li ul li .toggle,
+	nav ul ul a,
+  nav ul ul ul a{
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px; 
+	}
+  
+  
+	nav ul li ul li .toggle,
+	nav ul ul a {
+		background-color: #41887c; 
+	}
+
+	/* Hide Dropdowns by Default */
+	nav ul ul {
+		float: none;
+		position:static;
+		color: #ffffff;
+		/* has to be the same number as the "line-height" of "nav a" */
+	}
+		
+	/* Hide menus on hover */
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+	}
+		
+	/* Fisrt Tier Dropdown */
+	nav ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul ul li {
+		position: static;
+		/* has to be the same number as the "width" of "nav ul ul li" */ 
+
+	}
+
+}
+
+@media all and (max-width : 330px) {
+
+	nav ul li {
+		display:block;
+		width: 94%;
+	}
+
+}
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    #showcase {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+       }
+   
+       #showcase img {
+           width: 100%;
+           height: auto;
+           margin-top: 16em;
+       }
+   
+       #showcase h1 {
+           width: 100%;
+           font-size: 30px;
+           margin-top: 150px;
+       }
+   
+       #showcase p {
+           font-size: 20px;
+       }
+   
+       #introduction h1 {
+           font-size: 25px;
+       }
+   
+       #introduction p {
+           font-size: 15px;
+       }
+   
+       #boxes .boxes {
+           float: none;
+           width: 80%;
+           margin-left: 30px;
+       }
+   
+       .boxes h3 {
+           border-radius: 15px;
+       }
+   
+       #boxes {
+           margin-top: 150px;
+           width: 100%;
+           margin-left: 0;
+       }
+   
+       #boxes iframe{
+           width: 100%;
+           height: auto;
+       }
+   
+       .box img {
+           width: 100%;
+           height: auto;
+           border: none;
+       }
+   
+       .box h1 {
+           font-size: 25px;
+           background-color: none;
+           border: none;
+       }
+   
+       .box p {
+           font-size: 15px;
+       }
+   
+       .box a {
+           font-size: 15px;
+       }
+   
+       .box ul li {
+           font-size: 20px;
+       }
+   
+       #boxes {
+           display: flex;
+           flex-direction: column;
+       }
+   
+       .box_1 {
+           display: flex;
+           flex-direction: column;
+       }
+   
+       .box_2 {
+           display: flex;
+           flex-direction: column;
+       }
+   
+       .box_3 {
+           display: flex;
+           flex-direction: column;
+       }
+   
+       form {
+           width: 100%;
+           margin-top: 0px;
+          
+       }
+   
+       form label {
+           font-size: 20px;
+           display: inline-block;
+           text-align: left;
+        }
+   
+       .submt {
+           padding: 5px;
+           font-size: 20px;
+       }
+   
+       .rset {
+           margin-top: 10px;
+           padding: 5px;
+           font-size: 20px;
+       }
+   
+       table .myFormat {
+           width: 100%;
+           overflow: scroll;
+       }
+   
+       table img {
+           width: 80%;
+           height: auto;
+       }
+   
+       table .myFormat tr th{
+           font-size: 10px;
+       }
+   
+       footer {
+           margin-top: 100px;
+       }
+   }
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+   
+
+
