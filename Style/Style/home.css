@@ -1,0 +1,208 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.conatiner{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.toggle,
+[id^=drop] {
+	display: none;
+}
+
+nav { 
+	margin:0;
+	padding: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+	background-color: #56a79a;
+}
+
+#logo {
+	display: block;
+	padding: 0 30px;
+	float: left;
+	font-size:20px;
+	line-height: 60px;
+    color: #fff;
+}
+
+#logo img{
+	margin-top: 10px;
+	margin-left: 50px;
+	height: 45px;
+	width: 25px;
+}
+
+nav:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+nav ul {
+	float: right;
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+}
+
+nav ul li {
+	margin: 0px;
+    float: left;
+    padding-bottom: 12px;
+	background-color: #56a79a;
+}
+
+nav a {
+	display:block;
+	padding:14px 20px;	
+	color:#FFF;
+	font-size:17px;
+	text-decoration:none;
+}
+
+nav ul li ul li:hover { background: #41887c; }
+
+nav a:hover { 
+	background-color: #41887c; 
+}
+
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; 
+}
+
+nav ul li:hover > ul {
+	display:inherit;
+}
+
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+nav ul ul ul li {
+	position: relative;
+	top:-60px;
+	/* has to be the same number as the "width" of "nav ul ul li" */ 
+	left:170px; 
+}
+
+li > a:after { content:  ''; }
+li > a:only-child:after { content: ''; }
+
+#showcase{
+    min-height: 500px;
+    background-image: url(../Images/sigiriya.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 700px;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 10em;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    background-color: #ffc558;
+    border-radius: 50px;
+}
+
+#showcase p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+    color: beige;
+}
+
+#showcase hr{
+    width: 70%;
+}
+
+#showcase a{
+    font-size: 15px;
+    text-decoration: none;
+    color: beige;
+}
+
+#showcase a:hover{
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+#introduction{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#introduction h1{
+    background-color: #ffc558;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 45px;
+}
+
+#introduction p{
+    background-color: #56a79a;
+    color: #fff;
+    font-size: 25px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#boxes{
+    width: 65%;
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    background-color: #fff;
+}
+
+.box img{
+    width: 100%;
+    height: 500px;
+}
+
+.box h2 {
+    color: #528179;
+}
+
+.box h3 {
+    color: #528179;
+}
+
+.box ul li{
+    color: #9e9c9c;
+}
+
+.box ol li{
+    color: #9e9c9c;
+}
+
+.box p {
+    font-size: 15px;
+    color: #9e9c9c;
+}
+
+footer{
+    margin-top: 300px;
+    text-align: center;
+    background-color: #56a79a;
+    color: #fff;
+    padding: 10px;
+}
